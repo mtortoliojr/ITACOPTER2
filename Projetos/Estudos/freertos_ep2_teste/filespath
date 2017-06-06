@@ -1,0 +1,15 @@
+#
+# FreeRTOS files
+#
+FREE_RTOS_PATH=${ROOT}/third_party/FreeRTOSv9/FreeRTOS/Source
+FREE_RTOS_PATH+=${ROOT}/third_party/FreeRTOSv9/FreeRTOS/Source/portable/GCC/ARM_CM4F
+FREE_RTOS_PATH+=${ROOT}/third_party/FreeRTOSv9/FreeRTOS/Source/portable/MemMang
+FREE_RTOS_PATH+=${ROOT}/third_party/FreeRTOSv9/FreeRTOS/Source/portable/include
+FREE_RTOS_PATH+=${ROOT}/third_party/FreeRTOSv9/FreeRTOS/Source/include
+
+#
+# CMSIS files
+#
+CMSIS_PATH=${ROOT}/CMSIS
+CMSIS_PATH+=${ROOT}/CMSIS/CMSIS/Include
+CMSIS_PATH+=${ROOT}/CMSIS/CMSIS/Lib/GCC
